@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 app.get('/lakers', (req, res) => {
   var title = 'Lakers Page';
   res.render('pages/lakers', {title:title});
-});
+}); 
 
 app.get('/warriors', (req, res) => {
   var title = 'Warriors Page';
